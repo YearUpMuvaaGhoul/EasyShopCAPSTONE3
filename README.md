@@ -5,12 +5,9 @@ Capstone Overview: EasyShop is an already existing e-commerce application for te
 
 This capstone was broken down into phases; 
 
-  Phase 1 Explanation
 Phase 1 involved the initial implementation of the ProductsController endpoint, which includes methods for handling HTTP requests to manage products. This phase likely focused on setting up basic CRUD (Create, Read, Update, Delete) operations for products, ensuring that administrators can insert, update, or delete products.
 
 ---------------------------------------------------------------------------------------------
-
-Phase 2 Explanation
 Phase 2, as shown in the image, focuses on fixing bugs in the ProductsController endpoint. Specifically, it addresses two main issues:
 
 Bug 1: The product search functionality is returning incorrect results. The task here is to test the search logic and fix any bugs. The search URL has query string parameters such as cat (categoryId), minPrice, maxPrice, and color.
