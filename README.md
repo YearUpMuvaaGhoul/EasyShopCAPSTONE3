@@ -35,15 +35,15 @@ By completing this phase, you'll enhance the user experience by providing essent
 -------------------------------------------------------------------------------------------
 Phase 4 (Optional): User Profile Management
 
-Description: Enable users to manage their profiles.
+Description: Enable users to manage their profiles. This helps youupdate your profile information and save.
 
 This phase Enhances user experience by allowing them to update personal information, making the platform more user-friendly and personalized.
 --------------------------------------------------------------------------------------------------
-Phase 5 (Optional): Checkout Process
+Phase 5 (Optional): Checkout Process - did not complete,
 
 Description: Convert the shopping cart into an order, handling the entire checkout process.
 
-Why Necessary: Completes the e-commerce workflow, enabling users to finalize purchases, which is critical for any online shopping platform.
+Why Necessary? Completes the e-commerce workflow, enabling users to finalize purchases, which is critical for any online shopping platform.
 --------------------------------------------------------------------------------------------------
 Potential Future Enhancements:
 
