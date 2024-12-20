@@ -76,6 +76,8 @@ public class ProductsController
         }
     }
 
+///UPDATE; Bug 2: IT WAS CREATING A NEW PRODUCT INSTEAD OF UPDATING THE PRODUCT
+/// 
     @PutMapping("{id}")
     @PreAuthorize("hasRole('ROLE_ADMIN')")
     public void updateProduct(@PathVariable int id, @RequestBody Product product)
