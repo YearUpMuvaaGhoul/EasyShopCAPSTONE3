@@ -64,4 +64,13 @@ These phases are designed to build a robust and user-friendly e-commerce applica
 --------------------------------------------------------------------------------------------------
 
 
+here is my flowchart, 
+![294541441-e6e8d02c-05fd-4272-9d65-155b1fb07706](https://github.com/user-attachments/assets/a40f4e1c-bb18-4b93-9969-6104c35e8a96)
+------------------------------------------------------------------------------------------------------------------------------------
+here is some interesting code
+
+The future of easyshop
+<img width="3191" alt="294298301-faecdf14-184c-4260-8051-7531ee3583a9" src="https://github.com/user-attachments/assets/9c6025f1-a835-41b1-a9e1-8872d581ba4f" />
+
+
 
