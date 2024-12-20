@@ -1,7 +1,12 @@
 # EasyShopCAPSTONE3
 Capstone 3- Final Easy Shop Ecommerce project
 
+![image](https://github.com/user-attachments/assets/c0aa9fa0-43ea-4ccc-bbd3-b83bcf67dcc2)
+
+
 Capstone Overview: EasyShop is an already existing e-commerce application for technology and electronics. Our team was tasked with releasing a new and improved version, by fixing bugs that had been reported by users, implementing and editing existing methods, and adding new features.
+-----------------------------------------------------------------------------------------
+
 
 This capstone was broken down into phases; 
 
