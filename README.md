@@ -5,7 +5,7 @@ Capstone Overview: EasyShop is an already existing e-commerce application for te
 
 This capstone was broken down into phases; 
 
-Phase 1 involved the initial implementation of the ProductsController endpoint, which includes methods for handling HTTP requests to manage products. This phase likely focused on setting up basic CRUD (Create, Read, Update, Delete) operations for products, ensuring that administrators can insert, update, or delete products.
+Phase 1 involved the initial implementation of the ProductsController endpoint, which includes methods for handling HTTP requests to manage products. This phase focused on setting up basic CRUD (Create, Read, Update, Delete) operations for products, ensuring that administrators can insert, update, or delete products.
 
 ---------------------------------------------------------------------------------------------
 Phase 2, as shown in the image, focuses on fixing bugs in the ProductsController endpoint. Specifically, it addresses two main issues:
@@ -18,6 +18,8 @@ Phase 2 of the project, emphasizing the need to address specific bugs in the Pro
 
 By addressing these bugs, the product management system should become more reliable and user-friendly, ensuring accurate search results and preventing duplicate entries.
 
+** NEW Implemented Methods: ** Categories Controller - getProductsById(by category Id), addCatgegory(Admin ONLY authorization), updateCategory(Admin ONLY authorization), deleteCategory(Admin ONLY authorization), MySQLCategories - getAllCategories(), getById(by category Id), createCategory(Admin ONLY authorization), updateCategory(uses the category Id), deleteCategory(uses the cat id)
+
 
 -----------------------------------------------------------------------------------------------
 
@@ -25,17 +27,18 @@ Optional Phase 3: Shopping Cart
 New Feature: Users should have the ability to add items to their shopping cart. This feature is not yet implemented, although the database already has a shopping cart table.
 
 Key Requirements:
-User Authentication: The shopping cart feature is only available to logged-in users.
-
+User Authentication: The shopping cart feature is only available to logged-in users. (@PreAuthorized for the roles Admin and User)
 Persistence: Items added to the cart should persist across sessions. If a user logs out and logs back in, the items in their cart should still be there.
 
-API Endpoints: You need to add methods to the ShoppingCartController for the required REST services.
+Adding(PUT) to cart (update the database for the CURRENT user, and if that user logs out before purchasing the items will stay in their cart for when they return)
 
-By completing this phase, you'll enhance the user experience by providing essential e-commerce functionality.
+Viewing the cart (it allows user to view all items in their cart from the cart screen including the quantity of each item.)
+
+By completing this phase, we enhance the user experience by providing essential e-commerce functionality.
 -------------------------------------------------------------------------------------------
 Phase 4 (Optional): User Profile Management
 
-Description: Enable users to manage their profiles. This helps youupdate your profile information and save.
+Description: Enable users to manage their profiles. This helps you update your profile information and save.
 
 This phase Enhances user experience by allowing them to update personal information, making the platform more user-friendly and personalized.
 --------------------------------------------------------------------------------------------------
